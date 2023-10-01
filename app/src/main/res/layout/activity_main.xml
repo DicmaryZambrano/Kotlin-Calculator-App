@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/btnDot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/offWhite"
@@ -16,16 +15,6 @@
         android:layout_weight="3"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="end"
-            android:layout_weight="1"
-            android:gravity="end|center_vertical"
-            android:text="2+3"
-            android:textAlignment="textEnd"
-            android:textColor="@color/primary"
-            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/calDisplay"
@@ -34,7 +23,7 @@
             android:layout_gravity="end"
             android:layout_weight="1"
             android:gravity="end|center_vertical"
-            android:text="5"
+            android:text="0"
             android:textAlignment="textEnd"
             android:textColor="@color/primary"
             android:textSize="45sp" />
@@ -275,6 +264,7 @@
                 android:textSize="@dimen/buttonFontSize"></Button>
 
             <Button
+                android:id="@+id/btnDot"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
